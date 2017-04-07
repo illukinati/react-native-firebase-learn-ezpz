@@ -53,6 +53,7 @@ componentWillMount() {
     }
 ```
 paste the code that we copied from firebase before to firebase.initializeApp.
+
 firebase.auth().onAUthStateChanged is a method from firebase that check we are logged in yet or not, we don't need to make our validation anymore. Thanks firebase.
 
 for logout, I make it in a Button called "Log out"
@@ -64,6 +65,6 @@ for logout, I make it in a Button called "Log out"
 ```
 again and again firebase make it all easy, we only need 1 row of code to make sure we logged out.
 
-##It's all yours
+## It's all yours
 Walla, now you can make a condition everything you like, in my case if state loggedIn = true the page will show the logout button, when loggedIn = false the page will show login form.
 I know it's not a hard things to explain, but I hope this can help you guys for who first time to try !
